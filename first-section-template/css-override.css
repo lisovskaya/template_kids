@@ -1,0 +1,22 @@
+.vr-landing-block--hero {
+	height: 580px;
+	min-height: auto;
+}
+
+.vr-landing-hero-video-bg__video--SM {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: auto;
+	min-width: 100%;
+	height: auto;
+	min-height: 100%;
+	transform: translateX(-50%) translateY(-50%);
+	object-fit: cover;
+	background-size: cover;
+}
+
+.vr-landing-hero-video-bg__overlay {
+	background-image: none;
+	background: rgba(0,0,0,.4);
+}
